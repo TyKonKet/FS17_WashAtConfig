@@ -23,6 +23,7 @@ end
 function WashAtConfig:initialize(missionInfo, missionDynamicInfo, loadingScreen)
     self = WashAtConfig;
     self:print("initialize()");
+    ChangeVehicleConfigEvent.run = Utils.prependedFunction(ChangeVehicleConfigEvent.run, WashAtConfig.changeVehicleConfigRun);
 end
 g_mpLoadingScreen.loadFunction = Utils.prependedFunction(g_mpLoadingScreen.loadFunction, WashAtConfig.initialize);
 
@@ -39,7 +40,6 @@ function WashAtConfig:loadMap(name)
         addConsoleCommand("AAAWashAtConfigeTestCommand", "", "TestCommand", self);
     end
     self:loadSavegame();
-    ChangeVehicleConfigEvent.run = Utils.prependedFunction(ChangeVehicleConfigEvent.run, WashAtConfig.changeVehicleConfigRun);
 end
 
 function WashAtConfig:loadMapFinished()
