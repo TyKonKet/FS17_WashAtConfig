@@ -12,9 +12,9 @@
         <it>Molte volte si porta un veicolo al negozio per dargli un nuovo look, ma dopo alcune modifiche, una riverniciatura e un costo del lavoro di 1000$, è ancora sporco. Se siete d'accordo con me che questo è un molto noioso e poco realistico questa è la mod giusta per voi! Con questa mod, nel costo di lavoro è incluso un lavaggio per il  veicolo.</it>
     </description>
     <iconFilename>icon.dds</iconFilename>
-    <multiplayer supported="false"/>
+    <multiplayer supported="true" />
     <extraSourceFiles>
-        <sourceFile filename="script.lua"/>
+        <sourceFile filename="script.lua" />
     </extraSourceFiles>
     <git>
         <host>GitHub</host>
