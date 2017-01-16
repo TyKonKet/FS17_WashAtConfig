@@ -39,7 +39,7 @@ g_mpLoadingScreen.loadFunction = Utils.appendedFunction(g_mpLoadingScreen.loadFu
 function WashAtConfig:loadMap(name)
     self:print(("loadMap(name:%s)"):format(name));
     if self.debug then
-        addConsoleCommand("AAAWashAtConfigeTestCommand", "", "TestCommand", self);
+        --addConsoleCommand("AAAWashAtConfigeTestCommand", "", "TestCommand", self);
     end
     self:loadSavegame();
 end
@@ -67,9 +67,9 @@ function WashAtConfig:deleteMap()
     self:print("deleteMap()");
 end
 
-function WashAtConfig:TestCommand()
-    return "This is a test command";
-end
+--function WashAtConfig:TestCommand()
+--    return "This is a test command";
+--end
 
 function WashAtConfig:keyEvent(unicode, sym, modifier, isDown)
 end
