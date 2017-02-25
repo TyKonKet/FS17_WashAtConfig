@@ -6,18 +6,11 @@
         <en>Wash At Config</en>
     </title>
     <description>
-<<<<<<< HEAD
-        <en>Many times you bring your vehicle to the shop to give it a new look, but after some changes, a repainting and a cost of work of 1000$, it's still dirt. If you agree with me that this is plenty tedious and unrealistic this is the right mod for you! With this mod, in the working cost is included a wash for your vehicle</en>
-        <de>Viele Male dauert es, ein Fahrzeug in den Laden ihm einen neuen Look zu geben, aber nach ein paar Änderungen, eine Neulackierung und Arbeitskosten von $ 1.000, es ist immer noch schmutzig. Wenn Sie mir zustimmen, dass dies eine sehr mühsame und unrealistisch ist, ist dies das richtige Modell für Sie! Mit diesem Mod wird die Arbeitskosten eine Wäsche für Ihr Fahrzeug enthalten</de>
-        <fr>Plusieurs fois, vous amenez votre véhicule à la boutique pour lui donner un nouveau look, mais après quelques changements, une peinture et un coût de travail de 1000$, c'est encore de la saleté. Si vous êtes d'accord avec moi que c'est beaucoup ennuyeux et irréaliste c'est le bon mod pour vous! Avec ce mod, dans le coût de fonctionnement est inclus un lavage pour votre véhicule</fr>
-        <it>Molte volte si porta un veicolo al negozio per dargli un nuovo look, ma dopo alcune modifiche, una riverniciatura e un costo del lavoro di 1000$, è ancora sporco. Se siete d'accordo con me che questo è un molto noioso e poco realistico questa è la mod giusta per voi! Con questa mod, nel costo di lavoro è incluso un lavaggio per il  veicolo</it>
-=======
         <en>Many times you bring your vehicle to the shop to give it a new look, but after some changes, a repainting and a cost of work of 1000$, it's still dirt. If you agree with me that this is plenty tedious and unrealistic this is the right mod for you! With this mod, in the working cost is included a wash for your vehicle.</en>
         <de>Viele Male dauert es, ein Fahrzeug in den Laden ihm einen neuen Look zu geben, aber nach ein paar Änderungen, eine Neulackierung und Arbeitskosten von $ 1.000, es ist immer noch schmutzig. Wenn Sie mir zustimmen, dass dies eine sehr mühsame und unrealistisch ist, ist dies das richtige Modell für Sie! Mit diesem Mod wird die Arbeitskosten eine Wäsche für Ihr Fahrzeug enthalten.</de>
         <fr>Plusieurs fois, vous amenez votre véhicule à la boutique pour lui donner un nouveau look, mais après quelques changements, une peinture et un coût de travail de 1000$, c'est encore de la saleté. Si vous êtes d'accord avec moi que c'est beaucoup ennuyeux et irréaliste c'est le bon mod pour vous! Avec ce mod, dans le coût de fonctionnement est inclus un lavage pour votre véhicule.</fr>
         <it>Molte volte si porta un veicolo al negozio per dargli un nuovo look, ma dopo alcune modifiche, una riverniciatura e un costo del lavoro di 1000$, è ancora sporco. Se siete d'accordo con me che questo è un molto noioso e poco realistico questa è la mod giusta per voi! Con questa mod, nel costo di lavoro è incluso un lavaggio per il  veicolo.</it>
         <br>Todas as vezes que você levar o seu veículo na loja para realizar mudanças no visual, será oferecido uma repintura ao custo de $1000 incluindo uma lavagem.<br>
->>>>>>> b66f5c1e738dbe5638d15cae51b097fb93457dce
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true" />
