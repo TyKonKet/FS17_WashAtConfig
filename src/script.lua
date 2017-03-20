@@ -101,7 +101,7 @@ function WashAtConfig:setStoreItem(storeItem, vehicle, configBasePrice)
 end
 
 function WashAtConfig:changeVehicleConfigRun(connection)
-    if not connection:getIsServer() and self.vehicle ~= nil and selfvehicle.isVehicleSaved and not self.vehicle.isControlled and g_currentMission:getHasPermission("sellVehicle", connection) then
+    if not connection:getIsServer() and self.vehicle ~= nil and self.vehicle.isVehicleSaved and not self.vehicle.isControlled and g_currentMission:getHasPermission("sellVehicle", connection) then
         if self.vehicle.setDirtAmount ~= nil then
             self.vehicle:setDirtAmount(0, true);
         end
