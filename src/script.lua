@@ -83,7 +83,9 @@ end
 
 function WashAtConfig:onObjectDeleted(object)
     local isWasher = object.washerParticleSystems ~= nil;
-    WashAtConfig.washers = WashAtConfig.washers - 1;
+    if isWasher then
+        WashAtConfig.washers = WashAtConfig.washers - 1;
+    end
 end
 
 function WashAtConfig:setStoreItem(storeItem, vehicle, configBasePrice)
