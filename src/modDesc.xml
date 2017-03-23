@@ -13,13 +13,13 @@ Changelog 1.1.0
 - Fee of 250 in workshop if you haven't a washer.
 - Prevented dirt cleaning if configuration fails.
 ]]>
-        </en>
+        </en>       
         <de>
             <![CDATA[Desöfteren bringen Sie Ihr Fahrzeug zum Händler um diesem einen neuen Look zu geben. Aber nach ein paar Änderungen, einer Neulackierung und Arbeitskosten von $ 1.000, es ist immer noch schmutzig. Wenn Sie mir zustimmen, dass dies unrealistisch ist, ist dies der richtige Mod für Sie! Mit diesem Mod wird Ihr Fahrzeug nach einem Umbau immer sauber sein.
 
 Changelog 1.1.0
-- Gebühr von 250 in der Werkstatt, wenn Sie keine Waschmaschine haben.
-- Verhinderung der Schmutzreinigung bei Ausfall der Konfiguration
+- Gebühr von 250 in der Werkstatt, wenn die Mschine dreckig ist.
+- Maschine bleibt dreckig, wenn die Konfiguration abgebrochen wird.
 ]]>
         </de>
         <fr>

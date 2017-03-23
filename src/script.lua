@@ -5,7 +5,7 @@
 -- @date 10/01/2017
 WashAtConfig = {};
 WashAtConfig.name = "WashAtConfig";
-WashAtConfig.debug = true;
+WashAtConfig.debug = false;
 WashAtConfig.washers = 0;
 
 function WashAtConfig:print(txt1, txt2, txt3, txt4, txt5, txt6, txt7, txt8, txt9)
