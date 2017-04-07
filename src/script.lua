@@ -8,6 +8,12 @@ WashAtConfig.name = "WashAtConfig";
 WashAtConfig.debug = false;
 WashAtConfig.washers = 0;
 
+function WashAtConfig:print(text, ...)
+    local start = string.format("[%s(%s)] -> ", self.name, getDate("%H:%M:%S"));
+    local ptext = string.format(text, ...);
+    print(string.format("%s%s", start, ptext));
+end
+
 function WashAtConfig:initialize(missionInfo, missionDynamicInfo, loadingScreen)
     self = WashAtConfig;
     ChangeVehicleConfigEvent.run = Utils.prependedFunction(ChangeVehicleConfigEvent.run, WashAtConfig.changeVehicleConfigRun);
